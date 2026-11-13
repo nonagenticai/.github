@@ -12,9 +12,13 @@ own copy. A repository's own file always wins.
 | `CONTRIBUTING.md` | Contribution guide |
 | `CODE_OF_CONDUCT.md` | Code of conduct |
 | `SUPPORT.md` | "Where to get help" |
-| `.github/ISSUE_TEMPLATE/*` | Issue templates |
 | `.github/PULL_REQUEST_TEMPLATE.md` | Pull request template |
 | `profile/README.md` | The organisation landing page |
+| `.github/ISSUE_TEMPLATE/*` | **Not inherited** — copy these into a repository that wants them |
+
+Measured 2026-11-13: GitHub inherits SECURITY, CONTRIBUTING, CODE_OF_CONDUCT, SUPPORT and
+the pull request template, but **not** issue templates. The files here under
+`.github/ISSUE_TEMPLATE/` are the canonical source to copy into a repository.
 
 ## Changing these files
 
